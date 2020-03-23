@@ -59,6 +59,11 @@ p{
     background-color: #c4faff;    
 }
 
+/* Section Sobre Mim */
+.sobre {
+    background-image: url('../img/tijolos.jpg');
+}
+
 /* Contato */
 .contato {
     background-color: #c4faff;
