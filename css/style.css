@@ -1,0 +1,39 @@
+
+body {
+    font-family: 'Baloo Chettan 2', cursive;
+}
+
+.navbar {
+    background-color: #ffe0e6;
+}
+
+.inicio {
+    background-color:  rgb(231, 243, 253);
+    /*background-image: url('../img/tijolos.jpg'); background tijolinho */
+    color: #474545;
+       
+}
+
+.title {
+    font-family: 'Pacifico', cursive;    
+    color: #ff7591;
+    text-shadow: 2px 5px 5px #d3cece;   
+    font-size: 70px;    
+}
+
+.title:hover {
+    text-shadow: 2px 2px 10px #ecfd58;
+}
+
+.margin {
+    padding-top: 20px;
+    padding-bottom: 20px;    
+}
+
+.shadow-img {
+    box-shadow: 4px 4px 5px #9e9c9c;
+}
+
+.mulheres-ti {
+    background-color: #c4faff;
+}
