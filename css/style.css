@@ -3,8 +3,22 @@ body {
     font-family: 'Baloo Chettan 2', cursive;
 }
 
+img {
+    margin: 10px;
+}
+
+h3 {
+    /*font-size: 15px;*/  
+    margin-bottom: 20px;
+}
+
+h4 {
+    font-weight: bold;   
+    margin-bottom: 20px;
+}
+
 .navbar {
-    background-color: #ffe0e6;
+    background-color: #ffe0e6; 
 }
 
 .inicio {
@@ -16,18 +30,18 @@ body {
 
 .title {
     font-family: 'Pacifico', cursive;    
-    color: #ff7591;
+    /*color: #ff7591;*/
     text-shadow: 2px 5px 5px #d3cece;   
-    font-size: 70px;    
+    font-size: 50px;    
 }
 
 .title:hover {
-    text-shadow: 2px 2px 10px #ecfd58;
+    text-shadow: 2px 2px 10px #ff7591;
 }
 
 .margin {
     padding-top: 20px;
-    padding-bottom: 20px;    
+    padding-bottom: 10px;    
 }
 
 .shadow-img {
@@ -35,5 +49,20 @@ body {
 }
 
 .mulheres-ti {
-    background-color: #c4faff;
+    background-color: #c4faff;    
+}
+
+/* ZOOM EM IMAGENS */
+
+.zoom {
+	overflow: hidden;
+}
+
+.zoom {
+	max-width: 100%;	
+	transition: all 0.3s;
+}
+
+.zoom:hover {
+	transform: scale(1.1);
 }
